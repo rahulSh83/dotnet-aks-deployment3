@@ -1,0 +1,16 @@
+echo ".vs/
+bin/
+obj/
+*.user
+*.suo
+*.db
+Dockerfile.*
+*.tar
+*.zip
+.terraform/
+terraform.tfstate*
+*.tfvars
+.env
+.vscode/
+*.log
+" > .gitignore
