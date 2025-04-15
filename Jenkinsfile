@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/rahulSh83/dotnet-aks-deployment2.git'
+                git credentialsId: 'github-pat', branch: 'main', url: 'https://github.com/rahulSh83/dotnet-aks-deployment2.git'
             }
         }
 
